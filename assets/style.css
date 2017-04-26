@@ -1,0 +1,78 @@
+#home_title {
+    color: white;
+    padding: 0px;
+    font-family: 'Cinzel', serif;
+    font-size: 110px;
+    font-weight: 20;
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+}
+
+#home-background {
+	background: url('background.jpg');
+	background-size: 100% 100%;
+	width: 100%;
+	height: 100%;
+}
+
+#city  {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+}
+#distance  {
+  position: absolute;
+  top: 48%;
+  left: 50%;
+  transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+}
+.input {
+  background: rgba(0, 0, 0, 0.65);
+  color: #ecd709;
+  margin: 0px;
+  margin-bottom: 20px;
+  margin-left: 18px;
+  width: 400px;
+  height: 50px;
+  font-size: 20px;
+  font-weight: 300;
+  text-align: center;
+}
+.input::-webkit-input-placeholder {
+color: #ecd709;
+}
+#submit_link{
+  color: black;
+}
+#submit {
+  background-color: #ecd709;
+  margin: 0px;
+  margin-bottom: 20px;
+  margin-left: 18px;
+  width: 19%;
+  height: 50px;
+  line-height: 50px;
+  font-size: 24px;
+  font-weight: 300;
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+}
